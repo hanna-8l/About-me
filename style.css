@@ -30,14 +30,30 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
 }
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
 
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
